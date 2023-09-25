@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D315AD942AA590680023AA5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D315AD932AA590680023AA5F /* main.cpp */; };
-		D3DA04942ABA990F00F8380D /* ch04_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3DA04922ABA990F00F8380D /* ch04_1.cpp */; };
+		D3674C7D2AC1156A003BFC54 /* ch05_ilne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3674C7B2AC1156A003BFC54 /* ch05_ilne.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,8 @@
 		D315AD9A2AA590E20023AA5F /* opencv.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = opencv.entitlements; sourceTree = "<group>"; };
 		D346BEFC2AB15BE500870001 /* ch03_2matop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch03_2matop.cpp; sourceTree = "<group>"; };
 		D346BEFD2AB15BE500870001 /* ch03_2matop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch03_2matop.hpp; sourceTree = "<group>"; };
+		D3674C7B2AC1156A003BFC54 /* ch05_ilne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch05_ilne.cpp; sourceTree = "<group>"; };
+		D3674C7C2AC1156A003BFC54 /* ch05_ilne.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch05_ilne.hpp; sourceTree = "<group>"; };
 		D3DA04922ABA990F00F8380D /* ch04_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch04_1.cpp; sourceTree = "<group>"; };
 		D3DA04932ABA990F00F8380D /* ch04_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch04_1.hpp; sourceTree = "<group>"; };
 		D3F217652AAEA0A400B119B8 /* lena.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = lena.bmp; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		D315AD872AA590680023AA5F = {
 			isa = PBXGroup;
 			children = (
+				D3674C7A2AC1153C003BFC54 /* ch05 */,
 				D3DA04912ABA98F300F8380D /* ch04 */,
 				D3F217662AAEA79900B119B8 /* ch03 */,
 				D315AD922AA590680023AA5F /* opencv */,
@@ -73,6 +76,15 @@
 				D315AD932AA590680023AA5F /* main.cpp */,
 			);
 			path = opencv;
+			sourceTree = "<group>";
+		};
+		D3674C7A2AC1153C003BFC54 /* ch05 */ = {
+			isa = PBXGroup;
+			children = (
+				D3674C7B2AC1156A003BFC54 /* ch05_ilne.cpp */,
+				D3674C7C2AC1156A003BFC54 /* ch05_ilne.hpp */,
+			);
+			path = ch05;
 			sourceTree = "<group>";
 		};
 		D3DA04912ABA98F300F8380D /* ch04 */ = {
@@ -152,8 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DA04942ABA990F00F8380D /* ch04_1.cpp in Sources */,
 				D315AD942AA590680023AA5F /* main.cpp in Sources */,
+				D3674C7D2AC1156A003BFC54 /* ch05_ilne.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
