@@ -35,6 +35,8 @@ void writData()
     cout << "sf" << endl;
 }
 
+
+
 int main()
 {
     writData();
