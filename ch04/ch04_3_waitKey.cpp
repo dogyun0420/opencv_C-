@@ -36,7 +36,30 @@ void eventKey()
     return;
     
 }
+
+void on_level_change(int pos, void* userdata)
+{
+    Mat img = *(Mat*)userdata;
+    
+    img.setTo(pos * 16);
+    imshow("image", img);
+}
+
+
+
+void m_img(){
+    Mat img = Mat::zeros(400, 400, CV_8UC1);
+    
+    namedWindow("imagr");
+    createTrackbar ("level", "image", 0, 16, on_level_change, (void*)&img);
+    imshow("image", img);
+    waitKey(0);
+    
+    return;
+                    
+}
 int main()
 {
-    eventKey();
+    m_img();
+    //eventKey();
 }

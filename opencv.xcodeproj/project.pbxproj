@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D315AD942AA590680023AA5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D315AD932AA590680023AA5F /* main.cpp */; };
-		D3674C802AC12109003BFC54 /* ch04_3_waitKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3674C7E2AC12109003BFC54 /* ch04_3_waitKey.cpp */; };
+		D3674C832AC3C1C5003BFC54 /* ch04_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3674C812AC3C1C5003BFC54 /* ch04_4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,8 @@
 		D3674C7B2AC1156A003BFC54 /* ch04_2_ilne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch04_2_ilne.cpp; sourceTree = "<group>"; };
 		D3674C7E2AC12109003BFC54 /* ch04_3_waitKey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch04_3_waitKey.cpp; sourceTree = "<group>"; };
 		D3674C7F2AC12109003BFC54 /* ch04_3_waitKey.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch04_3_waitKey.hpp; sourceTree = "<group>"; };
+		D3674C812AC3C1C5003BFC54 /* ch04_4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch04_4.cpp; sourceTree = "<group>"; };
+		D3674C822AC3C1C5003BFC54 /* ch04_4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch04_4.hpp; sourceTree = "<group>"; };
 		D3DA04922ABA990F00F8380D /* ch04_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch04_1.cpp; sourceTree = "<group>"; };
 		D3DA04932ABA990F00F8380D /* ch04_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch04_1.hpp; sourceTree = "<group>"; };
 		D3F217652AAEA0A400B119B8 /* lena.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = lena.bmp; sourceTree = "<group>"; };
@@ -94,6 +96,8 @@
 				D3DA04932ABA990F00F8380D /* ch04_1.hpp */,
 				D3674C7E2AC12109003BFC54 /* ch04_3_waitKey.cpp */,
 				D3674C7F2AC12109003BFC54 /* ch04_3_waitKey.hpp */,
+				D3674C812AC3C1C5003BFC54 /* ch04_4.cpp */,
+				D3674C822AC3C1C5003BFC54 /* ch04_4.hpp */,
 			);
 			path = ch04;
 			sourceTree = "<group>";
@@ -166,8 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3674C832AC3C1C5003BFC54 /* ch04_4.cpp in Sources */,
 				D315AD942AA590680023AA5F /* main.cpp in Sources */,
-				D3674C802AC12109003BFC54 /* ch04_3_waitKey.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
